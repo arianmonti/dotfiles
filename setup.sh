@@ -8,19 +8,20 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 curl -L git.io/antigen > ~/antigen.zsh
 
 # zsh themes
-cp ~/dotfiles/zsh/.zshrc ~/.zshrc && cp ~/dotfiles/zsh/aban.zsh-theme ~/.ohmyzsh/themes/
+cp ~/dotfiles/zsh/.zshrc ~/.zshrc && cp ~/dotfiles/zsh/aban.zsh-theme ~/.oh-my-zsh/themes/
 
 # add vim colors
 mkdir --parents .vim/pack/colors/start/
 
+
+cd .vim/pack/colors/start/
 
 git clone https://github.com/dracula/vim.git
 git clone https://github.com/doums/darcula.git
 git clone https://github.com/arcticicestudio/nord-vim.git
 git clone https://github.com/joshdick/onedark.vim.git
 
-mkdir ~/.config/nvim
-
+cd ~
 # neovim and vim setting
 
 cp ~/dotfiles/vim/.vimrc ~/.vimrc
