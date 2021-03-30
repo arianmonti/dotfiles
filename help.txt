@@ -1,0 +1,31 @@
+themes:
+		MacOS-6.0
+		MacOS-6.0-dark
+		Mojave-light
+		Mojave-dark
+		Juno-Ocean
+
+icons:
+		Mkos-Big-Sur
+		La-capitain::e-icon-theme-0.6.1
+		Papirus
+
+gnome_extensions:
+		Activities Configuration
+		Appindicator and kstatusnotifieritem support
+		Application menu
+		topicons plus
+		Dash to dock
+		Dynamic panel transparency
+		Frippy move clock
+		Persian Calendar
+
+applications:
+		Chrome
+		virtualBox
+		OBS
+		VLC
+		MPV
+		VisualStudioCode
+		PyCharm
+		Flash Player
