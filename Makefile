@@ -49,6 +49,12 @@ i3-shit:
 	@cp -r ~/dotfiles/i3 ~/.config/
 	@cp -r ~/dotfiles/alacritty ~/.config/
 
+fonts:
+	@sudo cp -r ~/dotfiles/fonts/vazir-font-v27.0.3 /usr/share/fonts/
+	@sudo cp -r ~/dotfiles/fonts/sahel-font-v3.4.0 /usr/share/fonts/
+	@sudo cp -r ~/dotfiles/fonts/monaco-cufonfonts /usr/share/fonts/
+	@sudo cp -r ~/dotfiles/fonts/San-Francisco /usr/share/fonts/
+	@git clone https://github.com/stark/siji && sh siji/install.sh
 
 dash-shit:
 	# Dash to dock setting
