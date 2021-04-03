@@ -66,5 +66,5 @@ alias vi="nvim"
 
 antigen bundle zsh-users/zsh-syntax-highlighting
 
-antigen theme aban
+antigen theme ~/aban --loc=aban
 antigen apply
